@@ -20,6 +20,10 @@ a {
   cursor: pointer;
 }
 
+#content {
+  width: 100%;
+}
+
 .btn-default {
   width: 240px;
   background-color: var(--primary-color);

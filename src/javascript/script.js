@@ -37,7 +37,7 @@ $(document).ready(() => {
   });
 
   ScrollReveal().reveal(".testemonial-card-content", {
-    origin: "right",
+    origin: "left",
     duration: 2000,
     distance: "20%",
   });
