@@ -1,0 +1,98 @@
+#home {
+  width: 100%;
+  min-height: calc(100vh - 62.4px);
+  background-color: var(--secondary-color);
+  display: flex;
+  gap: 8rem;
+}
+
+#cta {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin: auto 0;
+}
+
+#cta_text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#cta_text .title {
+  font-size: var(--h1-font-size);
+  font-weight: var(--semi-bold);
+  color: var(--light-color);
+}
+
+#cta_text .title span {
+  color: var(--primary-color);
+}
+
+#cta_text .description {
+  font-size: var(--p-font-size);
+  font-weight: var(--regular);
+  color: var(--light-color);
+}
+
+#cta_achievements {
+  display: flex;
+  gap: 1.6rem;
+  text-align: center;
+  color: var(--light-color);
+}
+
+.achievements-item {
+  width: 100%;
+  background-color: var(--light-color-opacity);
+  padding: 35px 10px;
+}
+
+.achievements-title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--medium);
+}
+
+.achievements-description {
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+#banner {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#banner img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1270px) {
+  #banner {
+    display: none;
+  }
+
+  #cta {
+    width: 100%;
+    padding-top: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  #home {
+    min-height: 90vh;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  #cta_achievements {
+    display: none;
+  }
+}
