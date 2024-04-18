@@ -13,8 +13,15 @@ footer .copyright {
   color: var(--light-color);
 }
 
-footer .copyright span {
+footer .copyright a {
   font-weight: var(--semi-bold);
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+footer .copyright a:hover {
+  opacity: 70%;
 }
 
 footer .powered {
@@ -24,7 +31,7 @@ footer .powered {
 
   font-size: var(--p-font-size);
   font-weight: var(--medium);
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .powered img {
