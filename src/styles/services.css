@@ -5,10 +5,7 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
-}
-
-#services_title {
-  color: var(--secondary-color);
+  background-color: var(--primary-color-opacity);
 }
 
 #services_card_content {
@@ -20,28 +17,30 @@
 .services-card {
   width: 100%;
   display: flex;
+  background-color: var(--secondary-color);
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-  text-align: center;
+  text-align: start;
   gap: 24px;
-  border: 1px solid #10173a80;
+  border-radius: 16px;
   padding: 24px 37px 48px 37px;
+
+  color: var(--text-color);
 }
 
-.services-card-image {
-  width: 70%;
+.services-card-icon {
+  font-size: var(--h1-font-size);
+  color: var(--primary-color);
 }
 
 .services-card-title {
-  font-size: var(--h3-font-size);
+  font-size: var(--h6-font-size);
   font-weight: var(--medium);
-  color: var(--secondary-color);
 }
 
 .services-card-description {
   font-size: var(--p-font-size);
-  color: var(--secondary-color);
 }
 
 @media screen and (max-width: 1080px) {

@@ -1,15 +1,12 @@
 #testemonials {
   width: 100%;
   min-height: 70vh;
+  background-color: var(--secondary-color);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 24px;
-}
-
-#testemonials_title {
-  color: var(--secondary-color);
 }
 
 #testemonials_content {
@@ -40,22 +37,23 @@
   flex-direction: column;
   justify-content: center;
   gap: 14px;
-  border: 1px solid #10173a70;
-  padding: 24px 24px;
+  background-color: var(--primary-color-opacity);
+  border-radius: 16px;
+  color: var(--text-color);
+  padding: 32px 32px;
 }
 
 .testemonial-name {
-  font-size: var(--h3-font-size);
-  font-weight: var(--semi-bold);
-  color: var(--secondary-color);
+  font-size: var(--h6-font-size);
+  font-weight: 500;
+  color: var(--primary-color);
 }
 
 .testemonial-text {
   font-size: var(--p-font-size);
-  color: var(--secondary-color);
 }
 
-.testemonial-evaluation i {
+.testemonial-evaluation-icon {
   font-size: var(--p-font-size);
   color: var(--primary-color);
 }

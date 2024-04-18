@@ -41,13 +41,14 @@
   display: flex;
   gap: 1.6rem;
   text-align: center;
-  color: var(--light-color);
+  color: var(--secondary-color[]);
 }
 
 .achievements-item {
   width: 100%;
-  background-color: var(--light-color-opacity);
+  background-color: var(--primary-color-opacity);
   padding: 35px 10px;
+  border-radius: 8px;
 }
 
 .achievements-title {
